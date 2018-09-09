@@ -1,23 +1,23 @@
 .Container {
   display: flex;
-  border-bottom: 1px solid black;
-  width: 0 auto;
-}
-
-.nav {
   font-family: Verdana;
   font-weight: bold;
   font-size: 14px;
-  display: flex;
+  border-bottom: 1px solid black;
   align-items: center;
+  padding: 10px;
 }
 
 .times {
   color: MediumAquamarine;
-  display: inline-block;
-  justify-content: space-around;
+  padding: 10px;
 }
 
-.header {
-  display: inline-block;
-  }
+.nav {
+  margin-left: auto;
+  padding: 20px;
+}
+
+.li {
+  padding: 10px
+}
