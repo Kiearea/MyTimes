@@ -1,15 +1,23 @@
 .Container {
   display: flex;
   border-bottom: 1px solid black;
-  width: 100%;
+  width: 0 auto;
 }
 
-.header {
+.nav {
   font-family: Verdana;
   font-weight: bold;
   font-size: 14px;
+  display: flex;
+  align-items: center;
 }
 
 .times {
   color: MediumAquamarine;
+  display: inline-block;
+  justify-content: space-around;
 }
+
+.header {
+  display: inline-block;
+  }
