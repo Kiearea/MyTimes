@@ -10,12 +10,14 @@
 
 .logo {
   border: 1px solid black;
-  padding: 5px;
-  color: MediumAquamarine;
+  padding: 8px;
+  display: inline-flex;
 }
 
 .times {
-  display: inline-flex;
+  color: MediumAquamarine;
+  align-self: center;
+  margin: 10px;
   }
 
 .nav {
@@ -25,4 +27,37 @@
 
 .li {
   padding: 10px
+}
+
+.Main {
+  display: inline-flex;
+  border: 1px solid black;
+}
+
+.large {
+  width: 630px;
+  border: 2px solid black;
+
+}
+
+.large-column {
+border: 1px solid black;
+}
+
+.medium {
+  width: 300px;
+  border: 2px solid black;
+}
+
+.medium-column {
+  border: 1px solid black;
+}
+
+.small {
+  width: 240px;
+  border: 2px solid black;
+}
+
+.small-column {
+  border: 1px solid black;
 }
