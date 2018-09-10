@@ -30,14 +30,17 @@
 }
 
 .Main {
-  display: inline-flex;
+  display: flex;
   border: 1px solid black;
+  align-items: center;
+  justify-content: center;
 }
 
 .large {
   width: 630px;
   border: 2px solid black;
-
+  margin: 20px;
+  background-color: blue;
 }
 
 .large-column {
@@ -47,6 +50,7 @@ border: 1px solid black;
 .medium {
   width: 300px;
   border: 2px solid black;
+  margin: 20px;
 }
 
 .medium-column {
@@ -55,7 +59,9 @@ border: 1px solid black;
 
 .small {
   width: 240px;
+  margin: 20px;
   border: 2px solid black;
+  align-items: stretch;
 }
 
 .small-column {
