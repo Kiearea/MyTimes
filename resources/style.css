@@ -1,3 +1,4 @@
+/* Navigation Heading */
 .Container {
   display: flex;
   font-family: Verdana;
@@ -29,22 +30,65 @@
   padding: 10px
 }
 
+div {
+  border: 1px solid black;
+}
+/* Content */
 .Main {
   display: flex;
   border: 1px solid black;
-  align-items: center;
   justify-content: center;
 }
 
+/* 1st Column */
 .large {
   width: 630px;
   border: 2px solid black;
   margin: 20px;
-  background-color: blue;
 }
 
-.large-column {
-border: 1px solid black;
+.phish { /* main image container */
+  background-image: url(./images/main.png);
+  height: 250px;
+  display: flex;
+}
+
+.headline { /* main item */
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  margin: 0;
+}
+
+.earth { /* second image container */
+  background-image: url(./images/fall.png);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.backwards { /*second item */
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin: 0;
+}
+
+.research { /* third image container*/
+  background-image: url(./images/hipster.png);
+  height: 300px;
+  display: flex;
+  align-content: space-around;
+}
+
+.cameras { /*third item */
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin: 0;
 }
 
 .medium {
