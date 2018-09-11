@@ -34,6 +34,12 @@ div {
   border: 1px solid black;
 }
 /* Content */
+h2 p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 .Main {
   display: flex;
   border: 1px solid black;
@@ -80,7 +86,6 @@ div {
   background-image: url(./images/hipster.png);
   height: 300px;
   display: flex;
-  align-content: space-around;
 }
 
 .cameras { /*third item */
@@ -89,6 +94,8 @@ div {
   font-size: 30px;
   color: white;
   margin: 0;
+  padding-left: 10px;
+  text-align: center;
 }
 
 .medium {
@@ -97,17 +104,24 @@ div {
   margin: 20px;
 }
 
-.medium-column {
-  border: 1px solid black;
+.cats { /*fourth image container*/
+  background-image: url(./images/cat.png);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.control {/*fourth item*/
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  margin: 0;
+  text-align: center;
 }
 
 .small {
   width: 240px;
   margin: 20px;
-  border: 2px solid black;
   align-items: stretch;
-}
-
-.small-column {
-  border: 1px solid black;
 }
