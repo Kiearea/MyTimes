@@ -6,11 +6,11 @@
   font-size: 14px;
   border-bottom: 1px solid black;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
 }
 
 .logo {
-  padding: 8px;
+  padding: 5px;
   display: inline-flex;
 }
 
@@ -29,9 +29,6 @@
   padding: 10px
 }
 
-div {
-border: 1px solid black;
-}
 /* Content */
 p {
   font-family: Georgia;
@@ -76,11 +73,23 @@ h2 {
   display: flex;
 }
 
+.group1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.group2 {
+  display: flex;
+  flex-direction: column;
+}
+
 .earth { /* second image container */
   background-image: url(./images/fall.png);
   height: 300px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .backwards { /*second text */
@@ -94,6 +103,8 @@ h2 {
   background-image: url(./images/hipster.png);
   height: 300px;
   display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .cameras { /*third text */
@@ -103,7 +114,6 @@ h2 {
   color: white;
   margin: 0;
   padding-left: 10px;
-  text-align: center;
 }
 
 /* 2nd Column */
