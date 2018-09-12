@@ -10,7 +10,6 @@
 }
 
 .logo {
-  border: 1px solid black;
   padding: 8px;
   display: inline-flex;
 }
@@ -31,40 +30,50 @@
 }
 
 div {
-  border: 1px solid black;
+border: 1px solid black;
 }
 /* Content */
-h2 p {
+p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 .Main {
   display: flex;
-  border: 1px solid black;
   justify-content: center;
+  align-items: flex-start;
 }
 
 /* 1st Column */
 .large {
   width: 630px;
-  border: 2px solid black;
   margin: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .phish { /* main image container */
   background-image: url(./images/main.png);
   height: 250px;
   display: flex;
+  align-items: center;
 }
 
-.headline { /* main item */
+.headline { /* main text */
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
-  margin: 0;
+  padding-left: 20px;
+}
+
+.group {
+  display: flex;
 }
 
 .earth { /* second image container */
@@ -74,12 +83,11 @@ h2 p {
   justify-content: center;
 }
 
-.backwards { /*second item */
+.backwards { /*second text */
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
-  margin: 0;
 }
 
 .research { /* third image container*/
@@ -88,7 +96,7 @@ h2 p {
   display: flex;
 }
 
-.cameras { /*third item */
+.cameras { /*third text */
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -98,9 +106,9 @@ h2 p {
   text-align: center;
 }
 
+/* 2nd Column */
 .medium {
   width: 300px;
-  border: 2px solid black;
   margin: 20px;
 }
 
@@ -111,7 +119,7 @@ h2 p {
   justify-content: center;
 }
 
-.control {/*fourth item*/
+.control {/*fourth text*/
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
@@ -120,6 +128,7 @@ h2 p {
   text-align: center;
 }
 
+/* 3rd Column */
 .small {
   width: 240px;
   margin: 20px;
